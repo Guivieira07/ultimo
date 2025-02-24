@@ -22,22 +22,24 @@
         
       }
   .section_1{
-    height: calc(100vh - 5vh) ;
+    height: calc(97vh - 5vh) ;
     width: 100%;
     
   }
   .section_2{
      width: 100%;
-    height: calc(100vh )  ;
+    height: calc(103vh )  ;
     
   }  
   .section_3{
    width: 100%;
-    height: calc(195vh)  ;
+    height: calc(102vh)  ;
    
   }
  
-  
+  .sociais a button {
+    background-color: #c8a34500;
+  } 
 
 .centralizar_menu{
     position: fixed;
@@ -45,8 +47,8 @@
     justify-content: center;
     top: 0;
   background: white;
-  box-shadow: 5px 5px 15px #000;
-
+  box-shadow: 0 5px 15px #000;
+background-image:linear-gradient(#727070,#fff,#fff);
     z-index: 1;
     width: 100%;
     height: 15%;
@@ -84,13 +86,15 @@
    margin: 10px;
    font-size: 1em;
    align-content: space-around;
-  
+        
 }
 .sociais i {
     overflow: hidden!important;
+    
+   
 }
 .sociais button{
-    background-color: #ffffff;
+background-color: none;
     font-size: 2em;
     border-radius: 5px;
     color: #000000;
@@ -102,6 +106,7 @@
 .sociais a{
     text-decoration: none;
     color: #000; 
+   
   
 }
 .sociais i:hover{
@@ -298,30 +303,30 @@ body{
     top: 200%;
     width: 100%;
     left: 0;
-    height: 120%;
+    height: 300%;
     background-size: cover;    
-    justify-items: center;     
-    align-items: center;      
+          
     overflow: hidden!important;                                                                              
 }
 .org_area_de_atuacao{
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 60%;
     position: absolute;
      top: 16%;
-     justify-content: space-around;
      overflow: hidden!important;
-   
+   left: 10%;
+   justify-content: space-around;
 }
 
 .org_area_de_atuacao div{
     display:flex;
     position: relative;
     height: 100%;
-    width: 40%;
+    width: 60%;
     justify-content: center;
    
+
 }
 
 .org_area_de_atuacao img{
@@ -333,7 +338,7 @@ body{
 
 .org_area_de_atuacao p{
     position: absolute;
-  top: 12.5em;
+  top: 16em;
  background-size: cover;
 color: #000;
   width: 69%;
@@ -381,7 +386,7 @@ color: #000;
     font-family: "Poppins", serif;
     text-align: center;
     font-size: 1em;
-    top: 100%;
+    bottom: 0;
     left: 44%;
     align-content: center;
     cursor: pointer;
@@ -390,12 +395,12 @@ color: #000;
     transition: all 0.3s ease;
     text-align: center;
     justify-content:center ;
-    transform: translateY(4em);
-    
+    transform: translateY(15em);
+
 }
 .botao_atuacao:hover {
     border-style:visible;
-    transform: translateY(4.5em);
+  
     box-shadow: 0 0 0.5em #04691a;
     border: 2px solid #04691a;
 }
@@ -600,15 +605,15 @@ img{
 .contato{
     display: flex;
     position: absolute;
-    top:calc(500% - 10vh) ;
+    top:calc(408% - 10vh) ;
     background: #000000;
     color: #000;
     width: 100%;
     left: 0%;
-    z-index: -1;
+    z-index: 0;
     justify-content: center;
     font-family: "Poppins", serif;
-    height: 90%;
+    height: 100%;
 }
 
 iframe{
