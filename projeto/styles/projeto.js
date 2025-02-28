@@ -34,7 +34,11 @@ link.addEventListener('click', scrollSection)
 /* menu hamburguer */
 
 function barramenu(){
+    var primeiraLinha = document.getElementsByClassName('hamburguer')[0];
+    var ultimaLinha = document.getElementsByClassName('hamburguer')[1];
     
+    primeiraLinha.style.transform = "rotate(135deg)";
+    ultimaLinha.style.transform = "rotate(-135deg)";
    
 
     var menu =  document.querySelector('.menu');

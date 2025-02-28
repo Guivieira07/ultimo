@@ -273,8 +273,7 @@
         font-size: 1em;
         line-height: 1em;
         height: 10em;
-     
-    }
+           }
     .botao_atuacao{
        top: 82em;
        position: absolute;
@@ -832,6 +831,10 @@ font-size: 0.8em;
         width: 60%;
        
     }
+    .texto_fundo_menu button{
+        top: 20em;
+
+    }
 
     .img_fundo_atuacao{
         position:absolute;
@@ -937,7 +940,7 @@ iframe{
     }
     .fundo_menu{
         top: 0;
-        left: 0;
+        left: 2.5em ;
         width: 20em;
         height: 7.5em;
        background-size:100% ;
@@ -953,7 +956,7 @@ iframe{
     
     .texto_fundo_menu h4{
       
-        width: 100%;
+        width: 80%;
         
         
     }
@@ -961,6 +964,10 @@ iframe{
         width: 60%;
        
     }
+    .texto_fundo_menu button{
+        top: 15em;
+    }
+    
 .area_de_atuacao{
     top:calc(200% - 10vh); 
 }
@@ -969,7 +976,42 @@ iframe{
         width: 100%;
         background-position-x: 100% ;
     }
+.frase_sobre {
+    font-size: 4em ;
+    top: 0;
+}
+.linha {
+    top: 16em;
+    width: 47em;
+}
+.conteudo_sobre{
+    font-size: 1.3em;
+    text-align: justify;
+    top: 10em;
+}
+.titulo_atuacao{
+    font-size:5em ;
 
+}
+.org_area_de_atuacao{
+    
+    height: 60em;
+}
+.org_area_de_atuacao div{
+    
+    top: 1em;
+    height:50em;
+}
+.org_area_de_atuacao img{
+    width: 20em;
+    height: 20em;
+}
+.org_area_de_atuacao p {
+    top: 13.8em;
+    font-size: 1.3em;
+    color: black;
+    font-weight: 500;
+}
     .explica_serv_civil{
         right: 10%;
         position: absolute;
@@ -987,7 +1029,6 @@ Line-height: 1.7;
     }
     .servicos{
         height: 150%;
-        
 
     }
     .contato{
